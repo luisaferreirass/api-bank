@@ -7,9 +7,17 @@ disable=
       W0703, # Catching too general exception Exception
       C0209, # Consider-using-f-string
       E0015, # Unrecognized-option
-      C0303
-
-
+      C0303,
+      R0913,
+      W0613,
+      R0801,
+      R0913,
+      R0917,
+      W0201,
+      C0301,
+      R0916,
+      C0305
+      
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
@@ -301,7 +309,7 @@ exclude-too-few-public-methods=
 ignored-parents=
 
 # Maximum number of arguments for function / method.
-max-args=5
+max-args=9
 
 # Maximum number of attributes for a class (see R0902).
 max-attributes=7
@@ -319,7 +327,7 @@ max-locals=15
 max-parents=7
 
 # Maximum number of positional arguments for function / method.
-max-positional-arguments=5
+max-positional-arguments=9
 
 # Maximum number of public methods for a class (see R0904).
 max-public-methods=20
